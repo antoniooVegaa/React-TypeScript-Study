@@ -8,6 +8,10 @@ import TimerPadre from "./Components/TimerPadre";
 //Para useReducer
 import CounterReducer from "./Components/CounterReducer";
 
+// Para Ccustom Hooks
+import Formulario from "./Components/Formulario";
+import Formulario2 from "./Components/Formulario2";
+
 function App() {
   return (
     <>
@@ -18,13 +22,28 @@ function App() {
       <Usuario />
 
       <h2>UseEffect-UseRef</h2>
-      <hr/>
+      <hr />
       <TimerPadre />
 
       <h2>UseReducer</h2>
-      <hr/>
-      <CounterReducer/>
+      <hr />
+      <CounterReducer />
 
+
+      <h2>Custom Hooks</h2>
+      <hr />
+      <Formulario />
+
+      <br />
+
+      <Formulario2 />
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
 
     </>
   );
